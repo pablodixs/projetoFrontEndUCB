@@ -1,0 +1,100 @@
+@import url(./styles.css);
+
+.privacy-content {
+  margin-top: 90px;
+  text-align: center;
+  padding: 5rem;
+}
+
+.privacy-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+#alt::after {
+  content: '';
+  width: 190px;
+  height: 90px;
+  background: url(./assets/circle.svg) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -1rem;
+  right: 19rem;
+  z-index: -2;
+}
+
+.privacy-content h1::after {
+  content: '';
+  width: 250px;
+  height: 100px;
+  background: url(./assets/lines.svg) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -4rem;
+  right: 17rem;
+}
+
+.privacy-container {
+  max-width: 1000px;
+  border-top: 1px solid rgba(0, 0,0 , 0.05);
+}
+
+.privacy-content p {
+  margin: 3rem 0 1rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.privacy-container p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.privacy-container h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.privacy-container h2::before {
+  content: '';
+  width: 150px;
+  height: 50px;
+  background: url(./assets/sub.svg) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -2rem;
+  transform: rotate(3deg);
+  z-index: -2;
+}
+
+.privacy-container h3 {
+  margin: 2rem 0 0.5rem;
+  color: #434343;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.privacy-container ul {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin: 1rem 0;
+}
+
+.privacy-container li {
+  margin: 0.5rem 1rem;
+}
+
+.privacy-container span {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 3rem;
+  display: block;
+}
